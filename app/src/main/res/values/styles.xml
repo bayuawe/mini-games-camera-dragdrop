@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <!-- Main application theme -->
+    <style name="AppTheme" parent="Base.AppTheme">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
