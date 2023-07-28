@@ -72,11 +72,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void prepareData() {
-        steps.add(new Step("1. Rebus air hingga mendidih"));
-        steps.add(new Step("2. Masukkan mie ke dalam air mendidih selama 3 menit"));
-        steps.add(new Step("3. Campurkan bumbu mie ke dalam mangkuk"));
-        steps.add(new Step("4. Tambahkan air panas ke dalam mangkuk"));
-        steps.add(new Step("5. Aduk hingga bumbu larut dan mie siap dinikmati"));
+        steps.add(new Step("1. Siapkan panci"));
+        steps.add(new Step("2. tambahkan air dan masukkan telur ke dalamnya"));
+        steps.add(new Step("3. Letakkan panci di atas kompor dengan api sedang"));
+        steps.add(new Step("4. masak telur selama 4-6 menit "));
+        steps.add(new Step("5. Setelah selesai memasak, angkat telur"));
         Collections.shuffle(steps);
         adapter.notifyDataSetChanged();
     }
